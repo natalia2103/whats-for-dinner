@@ -16,6 +16,32 @@ div {
   background-image: url("assets/burger-friends.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 1800px 1400px
+  background-size: 2000px 1500px;
+  border: none;
+  margin: 0;
+}
 
+.nav-bar {
+  background-color: #0fb9b1;
+  border: none;
+  width: inline;
+  height: 80px;
+  margin: 0;
+}
+
+.left-box {
+  height: 300px;
+  width: 350px;
+  background-color: rgba(225, 225, 225, .9);
+  padding: 30px;
+  margin: 20px;
+}
+
+.right-box {
+  height: 320px;
+  width: 400px;
+  background-color: rgba(225, 225, 225, .9);
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
 }
