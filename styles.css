@@ -9,27 +9,36 @@ red - #ee5253
 */
 * {
   font-family: 'Roboto', sans-serif;
-
+  /* flex: 2 200px; */
 }
 
-div {
+
+body {
+  background-image: url("assets/burger-friends.jpg");
+  background-size: 2000px 1500px;
+}
+
+
+/* div {
   background-image: url("assets/burger-friends.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 2000px 1500px;
-  border: none;
-  margin: 0;
+  background-size: 2000px 1500px; */
+
+
 }
 
-.nav-bar {
+nav {
+  display: block;
   background-color: #0fb9b1;
   border: none;
   width: inline;
   height: 80px;
-  margin: 0;
+
 }
 
 .left-box {
+  display: inline-block;
   height: 300px;
   width: 350px;
   background-color: rgba(225, 225, 225, .9);
@@ -38,10 +47,30 @@ div {
 }
 
 .right-box {
-  height: 320px;
-  width: 400px;
+  /* display: inline-block; */
+  height: 300px;
+  width: 350px;
   background-color: rgba(225, 225, 225, .9);
-  padding: 5px;
-  margin: 20px;
+  padding: 10px;
+  margin: -50px 40px 40px 1200px;
   text-align: center;
+  /* float: right; */
+}
+
+svg {
+  height: 100px;
+  width: 100px;
+  padding-top: 100px;
+}
+
+.add-recipe {
+  float: right;
+  padding: 5px;
+  margin: -70px 15px 20px 30px;
+}
+
+.wfd {
+  /* float: left; */
+  padding: 30px 30px;
+  margin: 20px 20px 15px -15px;
 }
