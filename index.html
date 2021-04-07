@@ -6,20 +6,22 @@
   </head>
   <body>
     <nav class="nav-bar">
-      <h3 class="wfd">What's for Dinner?</h3>
+      <h3 class="first-header">What's for Dinner?</h3>
       <button class="add-recipe">ADD A RECIPE</button>
     </nav>
-    <div class=main-body>
+    <div class="main-body">
       <section class="left-box">
         <h2 class="main-header">What are you looking for?</h2>
-        <input type="radio" name="meal-options" value="side" /> Side
-        <br />
-        <input type="radio" name="meal-options" value="main" /> Main Dish
-        <br />
-        <input type="radio" name="meal-options" value="dessert" /> Dessert
-        <br />
-        <input type="radio" name="meal-options" value="entire-meal" /> Entire Meal
-        <br />
+          <form>
+            <input type="radio" name="meal-options" value="side" /> Side
+            <br />
+            <input type="radio" name="meal-options" value="main" /> Main Dish
+            <br />
+            <input type="radio" name="meal-options" value="dessert" /> Dessert
+            <br />
+            <input type="radio" name="meal-options" value="entire-meal" /> Entire Meal
+            <br />
+          </form>
         <button class="lets-cook">Let's Cook!</button>
       </section>
       <section class="right-box">
@@ -28,6 +30,6 @@
         </svg>
       </section>
     </div>
+    <script type="text/javascript" src="main.js"></script>
   </body>
-  <script type="text/javascript" src="main.js"></script>
 </html>
