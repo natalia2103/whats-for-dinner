@@ -70,6 +70,7 @@ svg {
   float: right;
   padding: 5px;
   margin: -25px 15px 20px 30px;
+  background-color: white;
 }
 
 .main-header {
@@ -81,6 +82,7 @@ svg {
 
 .wfd {
   margin: 20px 0px 0px 20px;
+  font-weight: bold;
 }
 
 .choose-side {
